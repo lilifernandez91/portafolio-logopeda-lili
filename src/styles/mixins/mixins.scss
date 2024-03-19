@@ -1,0 +1,65 @@
+@mixin position {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@mixin position-center-justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin position-center-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin position-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin text {
+    color: $color-content;
+    text-align: justify;
+}
+
+@mixin image {
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+@mixin animation-title {
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    @keyframes blink-caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    display: inline-block;
+    border-right: 0.08em solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}

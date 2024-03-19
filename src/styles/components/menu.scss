@@ -1,0 +1,36 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-navigation-menu;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    padding-left: 10px;
+
+    &__button {
+        color: $color-white;
+        font-size: 36px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    &__button:hover {
+        transform: scale(1.2);
+    }
+
+    &__link {
+        text-decoration: none;
+
+        &__text {
+            color: $color-black;
+            text-transform: uppercase;
+        }
+    }
+
+    &__avatar {
+        padding-right: 10px;
+    }
+}
