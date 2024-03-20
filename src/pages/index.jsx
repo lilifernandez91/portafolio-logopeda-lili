@@ -1,4 +1,4 @@
-import HomeComponent from "@/components/page-components/home";
+import HomeComponent from "@/components/components/home";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 

@@ -5,12 +5,6 @@
     justify-content: center;
 }
 
-@mixin position-center-justify {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 @mixin position-center-row {
     display: flex;
     flex-direction: row;
@@ -23,19 +17,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-@mixin text {
-    color: $color-content;
-    text-align: justify;
-}
-
-@mixin image {
-    padding-top: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
 }
 
 @mixin animation-title {

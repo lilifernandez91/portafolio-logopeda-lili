@@ -1,4 +1,4 @@
-import ContactoComponent from "@/components/page-components/contacto";
+import ContactoComponent from "@/components/components/contacto";
 import Head from "next/head";
 
 const ContactoPage = () => {

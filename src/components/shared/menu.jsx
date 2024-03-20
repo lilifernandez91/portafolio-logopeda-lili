@@ -8,10 +8,10 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
-import { navigationItems } from "@/data/navigation-items";
+import { navigationItems } from "@/routes/navigation-items";
 import { Fragment } from "react";
 import Link from "next/link";
-import AvatarComponent from "../page-components/avatar";
+import AvatarComponent from "../components/avatar";
 
 export default function MenuComponent() {
   const [position] = useState("left");

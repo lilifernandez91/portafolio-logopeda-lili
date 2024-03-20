@@ -1,4 +1,4 @@
-import AboutMeComponent from "@/components/page-components/about-me";
+import AboutMeComponent from "@/components/components/about-me";
 import Head from "next/head";
 
 const AboutMePage = () => {

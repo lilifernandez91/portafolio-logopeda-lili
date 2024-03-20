@@ -28,11 +28,6 @@ const TratamientosComponent = () => {
                 </ListItemButton>
               </ListItem>
             ))}
-            {/* <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemText inset primary={item.pathologies[0]} />
-              </ListItemButton>
-            </ListItem> */}
           </div>
         ))}
       </List>

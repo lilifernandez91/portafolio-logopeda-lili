@@ -1,4 +1,4 @@
-import TratamientosComponent from "@/components/page-components/projects";
+import TratamientosComponent from "@/components/components/projects";
 import Head from "next/head";
 
 const ProjectsPage = () => {

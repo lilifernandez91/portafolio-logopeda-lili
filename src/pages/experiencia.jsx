@@ -1,4 +1,4 @@
-import ExperienceComponent from "@/components/page-components/experience";
+import ExperienceComponent from "@/components/components/experience";
 import Head from "next/head";
 
 const ExperiencePage = () => {
